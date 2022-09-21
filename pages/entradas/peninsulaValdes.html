@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="keywords"
+      content="Nómades Argentinos, turismo, Argentina, turismo argentino, Península Valdés, Chubut, Puerto Madryn"
+    />
+    <meta
+      name="description"
+      content="Entrada de blog de Península Valdés, Chubut, Puerto Madryn "
+    />
+    <meta
+      name="author"
+      content="Francisco Iturburu,  Milagros Villafañe, Pablo Jose Rafael Saavedra,  Jose Mariano Guaraz Balcazar, Erick Ronan Pipke"
+    />
+    <link rel="shortcut icon" href="/img/favicon.png" type="image/png" />
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+
+    <title>Nómades Argentinos</title>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg fixed-top bg-light fs-5">
+        <div class="container">
+          <div class="logo">
+            <a class="navbar-brand" href="/index.html"
+              ><img
+                class="logo"
+                src="/img/logo.png"
+                alt="Logo de Nómades Argentinos"
+            /></a>
+          </div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="/pages/galeria.html">Galería</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/pages/contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/pages/sobreNosotros.html"
+                  >Sobre nosotros</a
+                >
+              </li>
+              <li class="nav-item">
+                <button
+                  type="button"
+                  class="btn nav-link"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modalSuscripcion"
+                >
+                  Newsletter
+                </button>
+              </li>
+              <li class="nav-item d-none d-md-block">
+                <a class="nav-link" href="/pages/login.html"
+                  ><i class="fa-solid fa-right-to-bracket nav-link"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div
+        class="modal fade"
+        id="modalSuscripcion"
+        tabindex="-1"
+        aria-labelledby="modalSuscripcionLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modalSuscripcionLabel">
+                Suscribite a nuestra newsletter
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <p>
+                ¡Recibe en tu casilla de email contenido exclusivo y
+                notificaciones para enterarte al instante de nuestros posteos!
+              </p>
+
+              <form class="mt-3">
+                <div class="py-2">
+                  <label for="nameinput" class="form-label">Nombre</label>
+
+                  <input
+                    type="text"
+                    placeholder="Ingrese su nombre"
+                    name="name"
+                    id="nameinput"
+                    class="form-control"
+                    required
+                  />
+                </div>
+
+                <div class="py-2">
+                  <label for="nameinput" class="form-label">Apellido</label>
+
+                  <input
+                    type="text"
+                    placeholder="Ingrese su apellido"
+                    name="name"
+                    id="nameinput"
+                    class="form-control"
+                    required
+                  />
+                </div>
+
+                <div class="py-2">
+                  <label for="emailinput" class="form-label">Email</label>
+                  <input
+                    type="email"
+                    placeholder="Ingrese su email"
+                    name="email"
+                    id="emailinput"
+                    class="form-control"
+                    required
+                  />
+                </div>
+
+                <div class="pt-3 text-end">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                  >
+                    Cerrar
+                  </button>
+                  <button type="submit" class="btn btn-primary">
+                    Suscribirse
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="container pt-5 d-flex">
+        <i class="fa-regular fa-calendar pt-1 pe-2"></i>
+        <h6 class="pt-1 text-secondary"><em>8 Sept. 2022</em></h6>
+
+        <i class="fa-solid fa-location-dot pt-1 ps-3 pe-2"></i>
+        <h6 class="pt-1 text-secondary"><em>Chubut - Puerto Madryn</em></h6>
+
+        <i class="fa-solid fa-pen pt-1 ps-3 pe-2"></i>
+        <a href="/pages/404.html"
+          ><h6 class="pt-1 text-secondary">Jose Mariano Guaraz Balcazar</h6>
+        </a>
+      </div>
+
+      <div class="container py-3 titulos">
+        <h1>Explorando Península Valdés</h1>
+      </div>
+
+      <div class="container d-flex">
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div
+              class="card rounded-0 border-0 shadow-lg px-3 pt-3 pb-5 mb-5 bg-body"
+            >
+              <img
+                src="/img/galeria/peninsulaValdes/peninsulaValdes1.png"
+                class="rounded-0 card-img-top"
+                alt="Vista previa imagen Península Valdés"
+              />
+              <div class="card-bodyImg pt-5">
+                <p class="card-text"></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div
+              class="card rounded-0 border-0 shadow-lg px-3 pt-3 pb-5 mb-5 bg-body"
+            >
+              <img
+                src="/img/galeria/peninsulaValdes/peninsulaValdes2.png"
+                class="rounded-0 card-img-top"
+                alt="Vista previa imagen Península Valdés"
+              />
+              <div class="card-bodyImg pt-5">
+                <p class="card-text"></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div
+              class="card rounded-0 border-0 shadow-lg px-3 pt-3 pb-5 mb-5 bg-body"
+            >
+              <img
+                src="/img/galeria/peninsulaValdes/peninsulaValdes3.png"
+                class="rounded-0 card-img-top"
+                alt="Vista previa imagen Península Valdés"
+              />
+              <div class="card-bodyImg pt-5">
+                <p class="card-text"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container pb-3">
+        <a href="/pages/galeria.html"
+          ><img
+            src="/img/banners/visitarGaleria.png"
+            class="img-fluid"
+            width="350"
+            alt="Banner visita nuestra galeria"
+        /></a>
+      </div>
+
+      <div class="container py-3">
+        <p class="fs-5 parrafos">
+          Península Valdés, la saliente debajo de la panza de Argentina que
+          llama la atención en cualquier mapa que miremos.
+        </p>
+        <p class="fs-5 parrafos">
+          Les comparto mi experiencia para que no comentan los mismos errores.
+          El primer consejo es estar informado. Antes de viajar hacia cualquier
+          lado, en especial si tienen pocos días pararecorrer, infórmense por
+          los portales o bien llamado a información turística. Por mi parte tuve
+          bastante suerte ya que debía entrar a Puerto Madryn para cargar GNC y
+          me tomé el tiempo de llegarme a la oficina de turismo para consultar
+          acerca de península. Me informaron acerca del estado de la ruta, el
+          costo de la entrada al parque (ya que es una reserva natural
+          protegida), sobre los horarios de visita y de las cosas que debía
+          llevar si pretendía conocer el lugar.
+        </p>
+
+        <p class="fs-5 parrafos">
+          El puesto de entrada del parque se encuentra a unos 100 kilómetros de
+          la ciudad de Puerto Madryn. Luego de pagar el ticket de ingreso restan
+          varios kilómetros donde la velocidad de viaje debe disminuirse ya que
+          hay gran posibilidad de atropellar guanacos que corren libres por los
+          campos. Una vez llegado al centro de visitantes, unos kilómetros antes
+          de Puerto Pirámide, podemos desviarnos tan solo unos minutos para
+          conocer península gales donde es el lugar de alimento de cientos de
+          Flamencos. A metros nada más, podremos observar el puesto de guarda
+          fauna de isla de las aves que, gracias a un mirador en lo alto del
+          lugar, podemos divisar los miles de pájaros que se encuentran
+          habitando la Isla en el Golfo San José.
+        </p>
+        <p class="fs-5 parrafos">
+          Continuando por la ruta 2 hacia puerto pirámides encontraremos dos
+          desvíos. Uno que se halla poco señalizado nos lleva a una playa
+          desértica llamada Villarino. El lugar se presta para acampar o bien
+          para instalar una motorhome ya que los 10 kilómetros de tierra hacia
+          el lugar se encuentran en buen estado. El segundo desvió, que mas que
+          un desvió es la continuación de la Ruta 2 solo que a partir de este
+          punto comienza el camino de tierra, nos lleva península adentro.
+        </p>
+        <p class="fs-5 parrafos">
+          Antes de adentrarnos en la desértica saliente del país, tenemos que
+          conocer el pueblo de Puerto Pirámides. Desde lo alto de la colina
+          puede verse muy pintoresco. Con varios almacenes, panaderías que
+          fabrican exquisiteces, alojamientos ubicados a cercanía de la playa y
+          una innumerable cantidad de oficinas para contratar excursiones, el
+          pueblo es un sitio que no podemos dejar de visitar. Si se encuentran
+          escasos de tiempo y no pueden (o bien no quieren) recorrer la
+          península, pueden llegar hacia punta pirámides. Este lugar con vista
+          al golfo nuevo es una reserva repleta de animales acuáticos, en
+          especial de lobos marinos.
+          <br />
+        </p>
+        <p class="fs-5 parrafos">
+          Dejando atrás aquel poblado y comenzando la travesía por el árido
+          camino de la península, tomamos el desvió hacia ruta 3 ya que Punta
+          Delgada se encuentra inhabilitada para su visita. Durante 77
+          kilómetros de tierra el paisaje no cambia hasta llegar a Caleta
+          Valdés. Antes del puesto de guarda parque, podemos divisar dos
+          miradores. En el primero se observan cientos de Pingüinos de
+          Magallanes en su hábitat natural y en el segundo algunos elefantes
+          marinos.
+        </p>
+        <p class="fs-5 parrafos">
+          Ya en Caleta Valdés se puede estar a pocos metros, pero desde lo alto,
+          de lobos y elefantes marinos. Dependiendo la época en la que vayamos
+          tendremos la suerte de divisar Orcas o Ballenas. Es importante
+          recalcar que debemos visitar el lugar cuando la marea se encuentra en
+          su punto máximo ya que los animales estarán mas cerca. Punta Caleta
+          cuenta con baños públicos limpios y cuidados, un centro de información
+          sobre el lugar, una casa de guarda parque y un restaurant que, si el
+          bolsillo lo permite, se puede almorzar.
+        </p>
+        <p class="fs-5 parrafos">
+          Debido a que la Ruta 47 esta inhabilitada, para llegar a Punta Norte,
+          debemos retomar la Ruta 3 y hacer otros 78 kilómetros hacia dicho
+          punto. Es importante también tener en cuenta los horarios de cierre de
+          los puestos.
+        </p>
+        <p class="fs-5 parrafos">
+          Si nunca estuvieron a tan solo pasos de lobos o elefantes marinos,
+          este es un lugar especial ya que la senda costera nos lleva a recorrer
+          lugares donde los animales se encuentran cercanos a la pasarela. Si
+          contamos de tiempo y dedicamos por lo menos una hora en el sitio,
+          podremos observar a los animales luchar entre sí, pescar y hasta notar
+          el singular trato de los adultos hacia las crías de la colonia marina.
+        </p>
+        <p class="fs-5 parrafos">
+          El retorno hacia el pavimento son otros 77 kilómetros por tierra, pero
+          bastantes llevaderos ya que la máxima permitida es de 60 km/h y el
+          estado del camino es muy bueno. Para diversión de algunos, en especial
+          de los fotógrafos, se puede divisar, durante gran parte del recorrido,
+          todo tipo de fauna autóctona atravesando la ruta de tierra.
+        </p>
+        <p class="fs-5 parrafos">
+          Es imprescindible llenar el tanque de combustible, abastecerse de
+          comida para pasar todo un día de viaje y comenzar la travesía lo más
+          temprano posible para poder aprovechar al máximo el día.
+        </p>
+      </div>
+
+      <div class="container pt-4 d-flex">
+        <h5 class="pt-1">Compartinos en tus redes!</h5>
+        <a href="https://www.facebook.com/" target="_blank">
+          <i class="fa-brands fa-square-facebook fa-2x pb-2 px-2"></i>
+        </a>
+        <a href="https://twitter.com/" target="_blank">
+          <i class="fa-brands fa-square-twitter fa-2x pb-2 px-2"></i>
+        </a>
+        <a href="https://www.instagram.com/" target="_blank">
+          <i class="fa-brands fa-square-instagram fa-2x px-2 pb-2"></i
+        ></a>
+      </div>
+
+      <div class="comentarios container pt-3 pb-5">
+        <div>
+          <form class="py-3">
+            <div class="form-floating">
+              <textarea
+                class="form-control"
+                placeholder="Dejanos tu comentario!"
+                id="floatingTextarea"
+                required
+              ></textarea>
+              <label for="floatingTextarea">Dejanos tu comentario!</label>
+            </div>
+
+            <button type="submit" class="btn mt-2 btn-primary">Enviar</button>
+          </form>
+        </div>
+
+        <div class="comentario pt-3 row">
+          <div class="col-1 d-sm-none d-lg-block">
+            <img
+              class="w-100 h-auto"
+              src="/img/avatarComentarios/Avatar21.png"
+              alt="Avatar de Candela Bustos"
+            />
+          </div>
+
+          <div class="col-11 py-3 row">
+            <h6>Candela Bustos</h6>
+            <p>
+              Todo muy hermoso, el día del avistaje embarcado un poco ventoso y
+              movido, pero se compensó al día siguiente con muy buenos
+              avistamientos desde la costa en playa La cantera.
+            </p>
+          </div>
+        </div>
+
+        <div class="comentario row">
+          <div class="col-1 d-sm-none d-lg-block py-2">
+            <img
+              class="w-100 h-auto"
+              src="/img/avatarComentarios/Avatar22.png"
+              alt="Avatar de Brahim Alcalde"
+            />
+          </div>
+
+          <div class="col-11 py-3 row">
+            <h6>Brahim Alcalde</h6>
+            <p>
+              Es un lugar que merece la vista, es hermoso, muy tranquilo y ver
+              la cantidad de pingüinos que hay es impresionante. Volvería mil
+              veces más.
+            </p>
+          </div>
+        </div>
+
+        <div class="comentario row">
+          <div class="col-1 d-sm-none d-lg-block py-2">
+            <img
+              class="w-100 h-auto"
+              src="/img/avatarComentarios/Avatar23.png"
+              alt="Avatar de Teresa Gimeno"
+            />
+          </div>
+
+          <div class="col-11 py-3 row">
+            <h6>Teresa Gimeno</h6>
+            <p>
+              Saber como es la naturaleza de los animales que viven en ese lugar
+              fue una experiencia maravillosa. Muy recomendable para todo tipo
+              de personas.
+            </p>
+          </div>
+        </div>
+
+        <div class="comentario row">
+          <div class="col-1 d-sm-none d-lg-block py-2">
+            <img
+              class="w-100 h-auto"
+              src="/img/avatarComentarios/Avatar24.png"
+              alt="Avatar de Luis Manuel Ferre"
+            />
+          </div>
+
+          <div class="col-11 py-3 row">
+            <h6>Luis Manuel Ferre</h6>
+            <p>
+              Hermoso lugar. Increíble ver a los pingüinos tan cerca. Los
+              senderos están muy bien marcados. Les recomiendo si van días de
+              mucho calor llevar agua para hacer más llevadera la caminata. Sin
+              duda un paseo que vale la pena.
+            </p>
+          </div>
+        </div>
+
+        <div class="comentarioFinal row">
+          <div class="col-1 d-sm-none d-lg-block py-2">
+            <img
+              class="w-100 h-auto"
+              src="/img/avatarComentarios/Avatar25.png"
+              alt="Avatar de  Luisa Li"
+            />
+          </div>
+
+          <div class="col-11 py-3 row">
+            <h6>Luisa Li</h6>
+            <p>
+              Área protegida y reserva de Pingüinos Magallanes, la más grande de
+              todo el mundo. ¡Hermoso lugar, muy cuidado y bien preparado para
+              atender al turista!
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container-fluid">
+        <div class="row p-5 pb-3 text-white">
+          <div class="col-12 col-md-6 col-lg-3 p-4 py-2 text-center">
+            <a href="/index.html">
+              <img
+                src="/img/logoBlanco.png"
+                alt="Logo de Nómades Argentinos"
+                class="img-fluid"
+              />
+            </a>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 py-3">
+            <h5>Seguinos</h5>
+            <div class="row">
+              <div class="py-2">
+                <a
+                  class="h5 text-secondary text-decoration-none"
+                  href="https://www.instagram.com/"
+                  target="_blank"
+                >
+                  <i class="fa-brands fa-instagram"></i>
+                  Instagram</a
+                >
+              </div>
+              <div class="py-2">
+                <a
+                  class="h5 text-secondary text-decoration-none"
+                  href="https://www.facebook.com/"
+                  target="_blank"
+                >
+                  <i class="fa-brands fa-facebook-f"></i>
+                  Facebook
+                </a>
+              </div>
+              <div class="py-2">
+                <a
+                  class="h5 text-secondary text-decoration-none"
+                  href="https://twitter.com"
+                  target="_blank"
+                >
+                  <i class="fa-brands fa-twitter"></i>
+                  Twitter
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 py-3">
+            <div class="mb-3">
+              <h5>Links</h5>
+            </div>
+            <div class="mb-3">
+              <div class="mb-1">
+                <a
+                  class="text-secondary text-start text-decoration-none"
+                  href="/pages/sobreNosotros.html"
+                >
+                  Sobre nosotros</a
+                >
+              </div>
+              <div class="mb-1">
+                <a
+                  class="text-secondary text-decoration-none"
+                  href="/pages/contacto.html"
+                >
+                  Contacto</a
+                >
+              </div>
+              <div class="mb-1">
+                <a
+                  class="text-secondary text-decoration-none"
+                  href="/pages/galeria.html"
+                  >Galería</a
+                >
+              </div>
+              <div class="mb-1">
+                <a
+                  class="text-secondary text-decoration-none"
+                  href="/pages/404.html"
+                >
+                  Politica de privacidad</a
+                >
+              </div>
+              <div class="mb-1">
+                <a
+                  class="text-secondary text-decoration-none"
+                  href="/pages/404.html"
+                >
+                  Politica de cookies</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 py-2 textoFooter">
+            <p>
+              Nómades Argentinos es un proyecto independiente y autogestionado,
+              por eso mismo invitamos a quienes disfruten de nuestro contenido a
+              aportar la cantidad de dinero que deseen para permitirnos poder
+              seguir haciendo lo que tanto amamos.
+            </p>
+            <div class="text-center">
+              <div class="py-2">
+                <a href="https://cafecito.app/" target="_blank">
+                  <img
+                    srcset="
+                      https://cdn.cafecito.app/imgs/buttons/button_5.png       1x,
+                      https://cdn.cafecito.app/imgs/buttons/button_5_2x.png    2x,
+                      https://cdn.cafecito.app/imgs/buttons/button_5_3.75x.png 3.75x
+                    "
+                    src="https://cdn.cafecito.app/imgs/buttons/button_5.png"
+                    alt="Invitame un café en cafecito.app"
+                  />
+                </a>
+              </div>
+
+              <div class="py-2">
+                <img src="/img/mp.png" alt="logo de mercadopago" width="60" />
+                <script
+                  src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
+                  data-preference-id="398743581-2d5ed5d2-9bda-4136-b2a5-bf0d31defb24"
+                  data-source="button"
+                ></script>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 pt-4 border-top border-2">
+            <p class="text-white text-center">
+              &copy; 2022 <b>Nómades Argentinos</b> - Todos los Derechos
+              Reservados.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap -->
+    <script src="/js/bootstrap.min.js"></script>
+  </body>
+</html>

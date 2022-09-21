@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="Nómades Argentinos, sobre nosotros, turismo,
+    argentina, viajar, senderismo, trekking, paisajes,Buenos Aires,Ciudad
+    Autónoma de Buenos Aires,Catamarca, Chaco,Chubut,Córdoba,Corrientes,Entre
+    Ríos,Formosa,Jujuy,La Pampa,La Rioja,Mendoza,Misiones,Neuquén,Río
+    Negro,Salta,San Juan,San Luis,Santa Cruz, Santa Fe,Santiago del
+    Estero,Tierra del Fuego, Antártida e Islas del Atlántico Sur,Tucumán"" />
+    <meta name="description" content="Nómades Argentinos sobre nosotros" />
+    <meta
+      name="author"
+      content="Francisco Iturburu,  Milagros Villafañe, Pablo Jose Rafael Saavedra,  Jose Mariano Guaraz Balcazar, Erick Ronan Pipke"
+    />
+    <link rel="shortcut icon" href="/img/favicon.png" type="image/png" />
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+
+    <title>Sobre nosotros</title>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg fixed-top bg-light fs-5">
+        <div class="container">
+          <div class="logo">
+            <a class="navbar-brand" href="/index.html"
+              ><img
+                class="logo"
+                src="/img/logo.png"
+                alt="Logo de Nómades Argentinos"
+            /></a>
+          </div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="/pages/galeria.html">Galería</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/pages/contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="/pages/sobreNosotros.html"
+                  >Sobre nosotros</a
+                >
+              </li>
+              <li class="nav-item">
+                <button
+                  type="button"
+                  class="btn nav-link"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modalSuscripcion"
+                >
+                  Newsletter
+                </button>
+              </li>
+              <li class="nav-item d-none d-md-block">
+                <a class="nav-link" href="/pages/login.html"><i class="fa-solid fa-right-to-bracket nav-link"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div
+        class="modal fade"
+        id="modalSuscripcion"
+        tabindex="-1"
+        aria-labelledby="modalSuscripcionLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modalSuscripcionLabel">
+                Suscribite a nuestra newsletter
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <p>
+                ¡Recibe en tu casilla de email contenido exclusivo y
+                notificaciones para enterarte al instante de nuestros posteos!
+              </p>
+
+              <form class="mt-3">
+                <div class="py-2">
+                  <label for="nameinput" class="form-label">Nombre</label>
+
+                  <input
+                    type="text"
+                    placeholder="Ingrese su nombre"
+                    name="name"
+                    id="nameinput"
+                    class="form-control"
+                    required
+                  />
+                </div>
+
+                <div class="py-2">
+                  <label for="nameinput" class="form-label">Apellido</label>
+
+                  <input
+                    type="text"
+                    placeholder="Ingrese su apellido"
+                    name="name"
+                    id="nameinput"
+                    class="form-control"
+                    required
+                  />
+                </div>
+
+                <div class="py-2">
+                  <label for="emailinput" class="form-label">Email</label>
+                  <input
+                    type="email"
+                    placeholder="Ingrese su email"
+                    name="email"
+                    id="emailinput"
+                    class="form-control"
+                    required
+                  />
+                </div>
+
+                <div class="pt-3 text-end">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                  >
+                    Cerrar
+                  </button>
+                  <button type="submit" class="btn btn-primary">
+                    Suscribirse
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="container pt-4">
+        <div class="d-flex justify-content-center">
+          <img
+            class="img-fluid"
+            src="/img/banners/bannerSobreNosotros.png"
+            alt="Banner sobre nosotros"
+          />
+        </div>
+
+        <div class="py-5">
+          <p class="fs-5 parrafos">
+            Somos un grupo de amigos amantes de lo que nuestro país tiene para
+            ofrecernos, mesetas, llanuras, cordilleras, glaciares, playas,
+            bosques e incluso selvas. Esta enorme diversidad de climas y
+            relieves, que mencionamos antes, nos lo brinda algo casi único en el
+            mundo, que es la gran extensión longitudinal de nuestro país. Desde
+            el pico más elevado en occidente (Aconcagua, 6.962 m s.n.m.), a la
+            mayor depresión de todo el hemisferio (Laguna del Carbón, 108 m
+            b.n.m.). Desde poder presenciar un espectáculo de tal magnitud, como
+            lo es el deshielo del glaciar Perito Moreno, a perderse en el
+            interior de la inmensidad de la selva misionera.
+          </p>
+          <p class="fs-5 parrafos">
+            Podríamos pasar horas, incluso días enteros, enumerando las
+            maravillas que podemos encontrar dentro de las fronteras del país,
+            son millones de destinos, uno aún más impactante que el otro.
+          </p>
+          <p class="fs-5 parrafos">
+            Con este proyecto pretendemos reivindicar todo lo que nuestra amada
+            Argentina tiene para ofrecernos.
+          </p>
+
+          <p class="fs-5 parrafos">
+            Elegimos el medio digital porque consideramos que es la mejor forma
+            de llegar al público de Nómades Argentinos, es una herramienta
+            poderosa mediante la cual nos es posible plasmar nuestras vivencias
+            con una experiencia multimedia de gran nivel y, a su vez, abrir la
+            posibilidad de diálogo con todos nuestros lectores.
+          </p>
+        </div>
+
+        <div class="py-3">
+          <h5>Nuestro equipo está conformado por:</h5>
+        </div>
+
+        <div class="pb-5">
+          <div class="d-flex">
+            <div class="row">
+              <div class="col-lg-4 col-md-4 col-sm-12">
+                <div
+                  class="card rounded-0 border-0 shadow-lg px-3 pt-3 pb-5 mb-5 bg-body"
+                >
+                  <img
+                    src="/img/Sobre nosotros/stockAboutUs1_cropped.png"
+                    class="rounded-0 card-img-top"
+                    alt="Imagen de Milagros Villafañe"
+                  />
+                  <div class="card-bodyImg pt-5">
+                    <p class="align-text-bottom px-2 polaroid fs-5 text-center">
+                      Milagros Villafañe
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-4 col-sm-12">
+                <div
+                  class="card rounded-0 border-0 shadow-lg px-3 pt-3 pb-5 mb-5 bg-body"
+                >
+                  <img
+                    src="/img/Sobre nosotros/stockAboutUs2_cropped.png"
+                    class="rounded-0 card-img-top"
+                    alt="Imagen de Pablo Jose Rafael Saavedra"
+                  />
+                  <div class="card-bodyImg pt-5">
+                    <p class="align-text-bottom px-2 polaroid fs-5 text-center">
+                      Pablo Jose Rafael Saavedra
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-4 col-sm-12">
+                <div
+                  class="card rounded-0 border-0 shadow-lg px-3 pt-3 pb-5 mb-5 bg-body"
+                >
+                  <img
+                    src="/img/Sobre nosotros/stockAboutUs3_cropped.png "
+                    class="rounded-0 card-img-top"
+                    alt="Imagen de Jose Mariano Guaraz Balcazar"
+                  />
+                  <div class="card-bodyImg pt-5">
+                    <p class="align-text-bottom px-2 polaroid fs-5 text-center">
+                      Jose Mariano Guaraz Balcazar
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-4 col-sm-12">
+                <div
+                  class="card rounded-0 border-0 shadow-lg px-3 pt-3 pb-5 mb-5 bg-body"
+                >
+                  <img
+                    src="/img/Sobre nosotros/stockAboutUs4_cropped.png   "
+                    class="rounded-0 card-img-top"
+                    alt="Imagen de Erick Ronan Pipke"
+                  />
+                  <div class="card-bodyImg pt-5">
+                    <p class="align-text-bottom px-2 polaroid fs-5 text-center">
+                      Erick Ronan Pipke
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-4 col-sm-12">
+                <div
+                  class="card rounded-0 border-0 shadow-lg px-3 pt-3 pb-5 mb-5 bg-body"
+                >
+                  <img
+                    src="/img/Sobre nosotros/stockAboutUs5_cropped.png   "
+                    class="rounded-0 card-img-top"
+                    alt="Imagen de Francisco Iturburu"
+                  />
+                  <div class="card-bodyImg pt-5">
+                    <p class="align-text-bottom px-2 polaroid fs-5 text-center">
+                      Francisco Iturburu
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container-fluid">
+        <div class="row p-5 pb-3 text-white">
+          <div class="col-12 col-md-6 col-lg-3 p-4 py-2 text-center">
+            <a href="/index.html">
+              <img
+                src="/img/logoBlanco.png"
+                alt="Logo de Nómades Argentinos"
+                class="img-fluid"
+              />
+            </a>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 py-3">
+            <h5>Seguinos</h5>
+            <div class="row">
+              <div class="py-2">
+                <a
+                  class="h5 text-secondary text-decoration-none"
+                  href="https://www.instagram.com/"
+                  target="_blank"
+                >
+                  <i class="fa-brands fa-instagram"></i>
+                  Instagram</a
+                >
+              </div>
+              <div class="py-2">
+                <a
+                  class="h5 text-secondary text-decoration-none"
+                  href="https://www.facebook.com/"
+                  target="_blank"
+                >
+                  <i class="fa-brands fa-facebook-f"></i>
+                  Facebook
+                </a>
+              </div>
+              <div class="py-2">
+                <a
+                  class="h5 text-secondary text-decoration-none"
+                  href="https://twitter.com"
+                  target="_blank"
+                >
+                  <i class="fa-brands fa-twitter"></i>
+                  Twitter
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 py-3">
+            <div class="mb-3">
+              <h5>Links</h5>
+            </div>
+            <div class="mb-3">
+              <div class="mb-1">
+                <a
+                  class="text-secondary text-start text-decoration-none"
+                  href="/pages/sobreNosotros.html"
+                >
+                  Sobre nosotros</a
+                >
+              </div>
+              <div class="mb-1">
+                <a
+                  class="text-secondary text-decoration-none"
+                  href="/pages/contacto.html"
+                >
+                  Contacto</a
+                >
+              </div>
+              <div class="mb-1">
+                <a
+                  class="text-secondary text-decoration-none"
+                  href="/pages/galeria.html"
+                  >Galería</a
+                >
+              </div>
+              <div class="mb-1">
+                <a
+                  class="text-secondary text-decoration-none"
+                  href="/pages/404.html"
+                >
+                  Politica de privacidad</a
+                >
+              </div>
+              <div class="mb-1">
+                <a
+                  class="text-secondary text-decoration-none"
+                  href="/pages/404.html"
+                >
+                  Politica de cookies</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 py-2 textoFooter">
+            <p>
+              Nómades Argentinos es un proyecto independiente y autogestionado,
+              por eso mismo invitamos a quienes disfruten de nuestro contenido a
+              aportar la cantidad de dinero que deseen para permitirnos poder
+              seguir haciendo lo que tanto amamos.
+            </p>
+            <div class="text-center">
+              <div class="py-2">
+                <a href="https://cafecito.app/" target="_blank">
+                  <img
+                    srcset="
+                      https://cdn.cafecito.app/imgs/buttons/button_5.png       1x,
+                      https://cdn.cafecito.app/imgs/buttons/button_5_2x.png    2x,
+                      https://cdn.cafecito.app/imgs/buttons/button_5_3.75x.png 3.75x
+                    "
+                    src="https://cdn.cafecito.app/imgs/buttons/button_5.png"
+                    alt="Invitame un café en cafecito.app"
+                  />
+                </a>
+              </div>
+
+              <div class="py-2">
+                <img src="/img/mp.png" alt="logo de mercadopago" width="60" />
+                <script
+                  src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
+                  data-preference-id="398743581-2d5ed5d2-9bda-4136-b2a5-bf0d31defb24"
+                  data-source="button"
+                ></script>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 pt-4 border-top border-2">
+            <p class="text-white text-center">
+              &copy; 2022 <b>Nómades Argentinos</b> - Todos los Derechos
+              Reservados.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Bootstrap -->
+    <script src="/js/bootstrap.min.js"></script>
+  </body>
+</html>

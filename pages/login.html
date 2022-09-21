@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="Description"
+      content="Pagina para el login de usuario usando Boostrap"
+    />
+    <meta name="keywords" content="html,css,etiquetas html" />
+    <meta name="author" content="Pablo Saavedra - Grupo 4" />
+    <link rel="shortcut icon" href="/img/favicon.png" type="image/png" />
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+
+    <title>Login</title>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg fixed-top bg-light fs-5">
+        <div class="container">
+          <div class="logo">
+            <a class="navbar-brand" href="/index.html"
+              ><img
+                class="logo"
+                src="/img/logo.png"
+                alt="Logo de Nómades Argentinos"
+            /></a>
+          </div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="/pages/galeria.html">Galería</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/pages/contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/pages/sobreNosotros.html"
+                  >Sobre nosotros</a
+                >
+              </li>
+              <li class="nav-item">
+                <button
+                  type="button"
+                  class="btn nav-link"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modalSuscripcion"
+                >
+                  Newsletter
+                </button>
+              </li>
+              <li class="nav-item d-none d-md-block">
+                <a class="nav-link active" aria-current="page" href="/pages/login.html"><i class="fa-solid fa-right-to-bracket nav-link"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div
+        class="modal fade"
+        id="modalSuscripcion"
+        tabindex="-1"
+        aria-labelledby="modalSuscripcionLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modalSuscripcionLabel">
+                Suscribite a nuestra newsletter
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <p>
+                ¡Recibe en tu casilla de email contenido exclusivo y
+                notificaciones para enterarte al instante de nuestros posteos!
+              </p>
+
+              <form class="mt-3">
+                <div class="py-2">
+                  <label for="nameinput" class="form-label">Nombre</label>
+
+                  <input
+                    type="text"
+                    placeholder="Ingrese su nombre"
+                    name="name"
+                    id="nameinput"
+                    class="form-control"
+                    required
+                  />
+                </div>
+
+                <div class="py-2">
+                  <label for="nameinput" class="form-label">Apellido</label>
+
+                  <input
+                    type="text"
+                    placeholder="Ingrese su apellido"
+                    name="name"
+                    id="nameinput"
+                    class="form-control"
+                    required
+                  />
+                </div>
+
+                <div class="py-2">
+                  <label for="emailinput" class="form-label">Email</label>
+                  <input
+                    type="email"
+                    placeholder="Ingrese su email"
+                    name="email"
+                    id="emailinput"
+                    class="form-control"
+                    required
+                  />
+                </div>
+
+                <div class="pt-3 text-end">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                  >
+                    Cerrar
+                  </button>
+                  <button type="submit" class="btn btn-primary">
+                    Suscribirse
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="container bg-white my-5 rounded shadow">
+        <div class="row">
+          <div class="col">
+            <div class="col-lg-12">
+              <h2
+                class="font-weight-bold text-center py-3 border-bottom border-2"
+              >
+                ¡Bienvenido!
+              </h2>
+
+              <form action="#">
+                <div class="mb-4 mt-4">
+                  <label for="email" class="form-check-label">Email</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Ingrese su email"
+                    name="email"
+                    maxlength="30"
+                    required
+                  />
+                </div>
+                <div class="mb-4">
+                  <label for="password" class="form-check-label"
+                    >Contraseña</label
+                  >
+                  <input
+                    type="password"
+                    class="form-control"
+                    placeholder="Ingrese su contraseña"
+                    name="password"
+                    minlength="8"
+                    maxlength="12"
+                    required
+                  />
+                </div>
+                <div class="form-check">
+                  <input
+                    type="checkbox"
+                    name="conectar"
+                    class="form-check-input"
+                  />
+                  <label for="conectar">Recordarme</label>
+                </div>
+
+                <div class="btn-lg text-center">
+                  <button
+                    type="submit"
+                    class="btn btn-primary btn-md font-weight-bolder boton-enviar"
+                  >
+                    Ingresar
+                  </button>
+                </div>
+                <div class="d-flex justify-content-between my-3">
+                  <div>
+                    <button
+                      type="button"
+                      class="btn"
+                      data-bs-toggle="modal"
+                      data-bs-target="#recuperarContraseñaModal"
+                    >
+                      <span class="text-primary"
+                        >¿Has olvidado tu contraseña?
+                      </span>
+                    </button>
+                  </div>
+                </div>
+              </form>
+
+              <div class="">
+                <div class="row">
+                  <div class="col-12 col-md-6 py-2 text-center">
+                    <a
+                      href="https://www.facebook.com/login/"
+                      class="text-decoration-none text-dark"
+                      target="_blank"
+                    >
+                      <div class="align-content-center">
+                        <button type="button" class="btn btn-outline-primary">
+                          <img
+                            src="/img/login/facebook-logo.png"
+                            class="mx-3"
+                            width="30"
+                            alt="logo de Facebook"
+                          />
+                          <span class="text-decoration-none"
+                            >Iniciar sesión con Facebook</span
+                          >
+                        </button>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-12 col-md-6 py-2 text-center text-md-end">
+                    <a
+                      href="https://www.google.com
+                        "
+                      class="text-decoration-none text-dark"
+                      target="_blank"
+                    >
+                      <div class="align-content-center">
+                        <button type="button" class="btn btn-outline-primary">
+                          <img
+                            src="/img/login/google-logo.png"
+                            class="mx-3"
+                            width="30"
+                            alt="logo de Google"
+                          />
+                          <span class="text-decoration-none"
+                            >Iniciar sesión con Google</span
+                          >
+                        </button>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="col d-none d-lg-flex col-md-5 col-lg-5 col-xl-6 py-3 align-items-center justify-content-center"
+          >
+            <img
+              src="/img/login/loginImg.png"
+              class="img-fluid"
+              alt="paisaje de montañas en blanco y negro"
+            />
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <div
+      class="modal fade"
+      id="recuperarContraseñaModal"
+      tabindex="-1"
+      aria-labelledby="recuperarContraseñaModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="recuperarContraseñaModalLabel">
+              Recuperación de contraseña
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <label for="email" class="form-check-label">Email</label>
+              <input
+                type="email"
+                class="form-control"
+                placeholder="Ingrese su email"
+                name="email"
+                maxlength="30"
+                required
+              />
+              <div class="pt-2">
+                <p>
+                  Enviaremos un código de confirmación por correo electrónico
+                  para recuperar tu contraseña.
+                </p>
+              </div>
+              <div class="text-end pt-2">
+                <button type="submit" class="btn btn-primary">Enviar</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container-fluid">
+        <div class="row p-5 pb-3 text-white">
+          <div class="col-12 col-md-6 col-lg-3 p-4 py-2 text-center">
+            <a href="/index.html">
+              <img
+                src="/img/logoBlanco.png"
+                alt="Logo de Nómades Argentinos"
+                class="img-fluid"
+              />
+            </a>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 py-3">
+            <h5>Seguinos</h5>
+            <div class="row">
+              <div class="py-2">
+                <a
+                  class="h5 text-secondary text-decoration-none"
+                  href="https://www.instagram.com/"
+                  target="_blank"
+                >
+                  <i class="fa-brands fa-instagram"></i>
+                  Instagram</a
+                >
+              </div>
+              <div class="py-2">
+                <a
+                  class="h5 text-secondary text-decoration-none"
+                  href="https://www.facebook.com/"
+                  target="_blank"
+                >
+                  <i class="fa-brands fa-facebook-f"></i>
+                  Facebook
+                </a>
+              </div>
+              <div class="py-2">
+                <a
+                  class="h5 text-secondary text-decoration-none"
+                  href="https://twitter.com"
+                  target="_blank"
+                >
+                  <i class="fa-brands fa-twitter"></i>
+                  Twitter
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 py-3">
+            <div class="mb-3">
+              <h5>Links</h5>
+            </div>
+            <div class="mb-3">
+              <div class="mb-1">
+                <a
+                  class="text-secondary text-start text-decoration-none"
+                  href="/pages/sobreNosotros.html"
+                >
+                  Sobre nosotros</a
+                >
+              </div>
+              <div class="mb-1">
+                <a
+                  class="text-secondary text-decoration-none"
+                  href="/pages/contacto.html"
+                >
+                  Contacto</a
+                >
+              </div>
+              <div class="mb-1">
+                <a
+                  class="text-secondary text-decoration-none"
+                  href="/pages/galeria.html"
+                  >Galería</a
+                >
+              </div>
+              <div class="mb-1">
+                <a
+                  class="text-secondary text-decoration-none"
+                  href="/pages/404.html"
+                >
+                  Politica de privacidad</a
+                >
+              </div>
+              <div class="mb-1">
+                <a
+                  class="text-secondary text-decoration-none"
+                  href="/pages/404.html"
+                >
+                  Politica de cookies</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 py-2 textoFooter">
+            <p>
+              Nómades Argentinos es un proyecto independiente y autogestionado,
+              por eso mismo invitamos a quienes disfruten de nuestro contenido a
+              aportar la cantidad de dinero que deseen para permitirnos poder
+              seguir haciendo lo que tanto amamos.
+            </p>
+            <div class="text-center">
+              <div class="py-2">
+                <a href="https://cafecito.app/" target="_blank">
+                  <img
+                    srcset="
+                      https://cdn.cafecito.app/imgs/buttons/button_5.png       1x,
+                      https://cdn.cafecito.app/imgs/buttons/button_5_2x.png    2x,
+                      https://cdn.cafecito.app/imgs/buttons/button_5_3.75x.png 3.75x
+                    "
+                    src="https://cdn.cafecito.app/imgs/buttons/button_5.png"
+                    alt="Invitame un café en cafecito.app"
+                  />
+                </a>
+              </div>
+
+              <div class="py-2">
+                <img src="/img/mp.png" alt="logo de mercadopago" width="60" />
+                <script
+                  src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
+                  data-preference-id="398743581-2d5ed5d2-9bda-4136-b2a5-bf0d31defb24"
+                  data-source="button"
+                ></script>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 pt-4 border-top border-2">
+            <p class="text-white text-center ">
+              &copy; 2022 <b>Nómades Argentinos</b> - Todos los Derechos
+              Reservados.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="/js/bootstrap.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:ital,wght@0,400;0,500;1,400&family=Permanent+Marker&display=swap");
+
+/* Belgrano */
+@import url('https://fonts.googleapis.com/css2?family=Belgrano&display=swap');
+
+/* Montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+/* Permanent Marker */
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1e4bb;
+}
+
+main {
+  padding-top: 10vh;
+}
+
+/* Navbar */
+.logo {
+  height: 10vh;
+}
+nav {
+  min-height: 12vh;
+}
+
+/* Principal */
+.card-body {
+  background-color: #e9e9e971;
+}
+.searchBar {
+  width: 100%;
+}
+
+.card:hover {
+  box-shadow: 12px 10px 29px 6px rgba(0, 0, 0, 0.26);
+}
+
+/* Contacto y entradas */
+
+textarea {
+  resize: none;
+}
+
+/* Entradas */
+
+.comentario {
+  border-bottom: solid 1px rgba(170, 168, 168, 0.774);
+}
+
+.fa-brands {
+  color: #6a737a;
+}
+
+.fa-brands:hover {
+  color: #565b5f;
+}
+
+#floatingTextarea {
+  height: 13vh;
+}
+
+.parrafos {
+  text-align: justify;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+.titulos{ 
+  font-family: 'Belgrano', serif;
+}
+
+/* Sobre nosotros */
+.cardSobreNosotros {
+  max-width: 25%;
+}
+
+/* Galería*/
+
+.polaroid {
+  font-family: "Permanent Marker", cursive;
+}
+
+/* Footer */
+
+.textoFooter {
+  text-align: justify;
+}
+
+footer {
+  background-color: #343a40;
+  color: white;
+}
+
+/* Animaciones */
+.categorias {
+  position: relative;
+}
+
+.categorias::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: #0d6efd;
+  transform-origin: bottom right;
+  transform: scaleX(0);
+  transition: transform 0.5s ease;
+}
+
+.categorias:hover::before {
+  transform-origin: bottom left;
+  transform: scaleX(1);
+}
+
+/* Media */
+
+@media all and (max-width: 576px) {
+  .imgSlider {
+    height: 25vh;
+    object-fit: cover;
+  }
+}

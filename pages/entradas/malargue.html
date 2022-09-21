@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="keywords"
+      content="Nómades Argentinos, turismo, Argentina, turismo argentino, Mendoza, Malargüe"
+    />
+    <meta name="description" content="Entrada de blog de Mendoza, Malargüe" />
+    <meta
+      name="author"
+      content="Francisco Iturburu,  Milagros Villafañe, Pablo Jose Rafael Saavedra,  Jose Mariano Guaraz Balcazar, Erick Ronan Pipke"
+    />
+    <link rel="shortcut icon" href="/img/favicon.png" type="image/png" />
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+
+    <title>Nómades Argentinos</title>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg fixed-top bg-light fs-5">
+        <div class="container">
+          <div class="logo">
+            <a class="navbar-brand" href="/index.html"
+              ><img
+                class="logo"
+                src="/img/logo.png"
+                alt="Logo de Nómades Argentinos"
+            /></a>
+          </div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="/pages/galeria.html">Galería</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/pages/contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/pages/sobreNosotros.html"
+                  >Sobre nosotros</a
+                >
+              </li>
+              <li class="nav-item">
+                <button
+                  type="button"
+                  class="btn nav-link"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modalSuscripcion"
+                >
+                  Newsletter
+                </button>
+              </li>
+              <li class="nav-item d-none d-md-block">
+                <a class="nav-link" href="/pages/login.html"
+                  ><i class="fa-solid fa-right-to-bracket nav-link"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div
+        class="modal fade"
+        id="modalSuscripcion"
+        tabindex="-1"
+        aria-labelledby="modalSuscripcionLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modalSuscripcionLabel">
+                Suscribite a nuestra newsletter
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <p>
+                ¡Recibe en tu casilla de email contenido exclusivo y
+                notificaciones para enterarte al instante de nuestros posteos!
+              </p>
+
+              <form class="mt-3">
+                <div class="py-2">
+                  <label for="nameinput" class="form-label">Nombre</label>
+
+                  <input
+                    type="text"
+                    placeholder="Ingrese su nombre"
+                    name="name"
+                    id="nameinput"
+                    class="form-control"
+                    required
+                  />
+                </div>
+
+                <div class="py-2">
+                  <label for="nameinput" class="form-label">Apellido</label>
+
+                  <input
+                    type="text"
+                    placeholder="Ingrese su apellido"
+                    name="name"
+                    id="nameinput"
+                    class="form-control"
+                    required
+                  />
+                </div>
+
+                <div class="py-2">
+                  <label for="emailinput" class="form-label">Email</label>
+                  <input
+                    type="email"
+                    placeholder="Ingrese su email"
+                    name="email"
+                    id="emailinput"
+                    class="form-control"
+                    required
+                  />
+                </div>
+
+                <div class="pt-3 text-end">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                  >
+                    Cerrar
+                  </button>
+                  <button type="submit" class="btn btn-primary">
+                    Suscribirse
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="container pt-5 d-flex">
+        <i class="fa-regular fa-calendar pt-1 pe-2"></i>
+        <h6 class="pt-1 text-secondary"><em>10 Sept. 2022</em></h6>
+
+        <i class="fa-solid fa-location-dot pt-1 ps-3 pe-2"></i>
+        <h6 class="pt-1 text-secondary"><em>Mendoza - Malargüe</em></h6>
+
+        <i class="fa-solid fa-pen pt-1 ps-3 pe-2"></i>
+        <a href="/pages/404.html"
+          ><h6 class="pt-1 text-secondary">Pablo José Rafael Saavedra</h6>
+        </a>
+      </div>
+
+      <div class="container py-3 titulos">
+        <h1>Reserva La Payunia y Geoparque</h1>
+      </div>
+
+      <div class="container d-flex">
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div
+              class="card rounded-0 border-0 shadow-lg px-3 pt-3 pb-5 mb-5 bg-body"
+            >
+              <img
+                src="/img/galeria/malargue/malargue1.png"
+                class="rounded-0 card-img-top"
+                alt="Vista previa imagen Malargüe"
+              />
+              <div class="card-bodyImg pt-5">
+                <p class="card-text"></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div
+              class="card rounded-0 border-0 shadow-lg px-3 pt-3 pb-5 mb-5 bg-body"
+            >
+              <img
+                src="/img/galeria/malargue/malargue2.png"
+                class="rounded-0 card-img-top"
+                alt="Vista previa imagen Malargüe"
+              />
+              <div class="card-bodyImg pt-5">
+                <p class="card-text"></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div
+              class="card rounded-0 border-0 shadow-lg px-3 pt-3 pb-5 mb-5 bg-body"
+            >
+              <img src="/img/galeria/malargue/malargue3.png" class="rounded-0
+              card-img-top" alt="Vista previa imagen Malargüe"" />
+              <div class="card-bodyImg pt-5">
+                <p class="card-text"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container pb-3">
+        <a href="/pages/galeria.html"
+          ><img
+            src="/img/banners/visitarGaleria.png"
+            class="img-fluid"
+            width="350"
+            alt="Banner visita nuestra galeria"
+        /></a>
+      </div>
+
+      <div class="container py-3">
+        <p class="fs-5 parrafos">
+          Habías escuchado hablar de este lugar? Es increíble que no tenga el
+          reconocimiento que se merece, yo hasta diría que podría agregarse como
+          uno de los principales atractivos de Argentina, y no exagero! Es un
+          lugar único en el mundo, un paisaje que sólo puede encontrarse ahí, y
+          literal, es de otro planeta. De hecho ya está postulado en la UNESCO
+          para ser Patrimonio de la Humanidad.
+        </p>
+
+        <p class="fs-5 parrafos">
+          El Área Natural de La Payunia es uno de los campos volcánicos más
+          grandes e importantes de Sudamérica. Dentro de sus 660 mil hectáreas
+          protegidas se encuentran unos 800 volcanes y ríos de lava, hoy
+          transformados en roca volcánica, que recorren decenas de kilómetros.
+          El color de esta roca es negro, y es lo que más llama la atención,
+          porque hace que te adentres a un paisaje cuasi lunar. Mezclado con los
+          tonos rojizos y amarillo de los coirones, arbusto que predomina en el
+          lugar (y que si viajaste por la Patagonia conocerás como el yuyito
+          pinchudo amarillo) hacen que uno se sienta en Marte! Lo que uno ve es
+          único, no podría compararlo con nada porque jamás había estado en un
+          lugar así.
+        </p>
+
+        <p class="fs-5 parrafos">
+          En este momento, como medida del COVID, se exige sacar un turno para
+          poder ingresar, que se puede solicitar en
+          www.turneroanp.mendoza.gov.ar y tiene un valor de $250. También es
+          requisito ingresar con guía habilitado, el sitio se encuentra a 200 km
+          de Malargüe y no te dejarán entrar a la Reserva si no vas acompañado
+          de uno, dato no menor. Si contratas una excursión incluirá guía y el
+          transporte, el valor a la fecha es de $4800 por persona (Marzo 2021).
+          Si como nosotras viajas en auto propio entonces podés contratar guía y
+          llevarlo en tu vehículo, el precio estipulado por el día es de $5000.
+        </p>
+
+        <p class="fs-5 parrafos">
+          El día que llegamos a Malargüe era de noche y fuimos directamente a la
+          Secretaría de Turismo. Nos dieron un PDF lleno de información y así
+          comenzamos a buscar guía para el día siguiente. Era tarde, pero Marisa
+          nos respondió enseguida. Decidimos organizar con ella nuestra salida,
+          que además incluiría la visita al Geoparque Llano Blanco. Un sitio
+          privado que preserva fósiles y que aún está poco difundido.
+        </p>
+
+        <p class="fs-5 parrafos">
+          Salimos temprano, teníamos turno de ingreso a las 12 del mediodía y se
+          tarda aproximadamente 3 horas en llegar. El asfalto dura poco, la
+          mayor parte del camino es de ripio. En el camino se puede ver de lejos
+          la Antena DS3 y el Volcán Malacara. Este último puede agregarse al
+          recorrido si es que no se hace otro día junto a la Laguna Llancanelo.
+          Nuestra primer parada fue en lo de Matilde por una tortas fritas,
+          peeero justo ese día había salido asique nos quedamos con las ganas de
+          probarlas y conocerla. Continuamos entonces hacia el ingreso, donde el
+          guardaparque chequea que esté todo ok y se puede hacer uso de los
+          baños, que son los únicos de la reserva. Es bastante loco ver pozos de
+          petróleo tan cerca del ingreso al área, eso nos llamó la atención,
+          pero a medida que uno se adentra en el paisaje negro se va
+          transportando de a poco a otro planeta. Sin salirnos del camino y con
+          las paradas estipuladas, Marisa nos iba enseñando el lugar. Todo está
+          impoluto, no hay otras huellas salvo las marcadas por donde transitan
+          todos, esa inmensidad virgen deslumbra todavía más.
+        </p>
+        <p class="fs-5 parrafos">
+          Luego de almorzar al reparo con el Volcán Payun Liso de fondo,
+          disfrutamos nuestra última parada en el lugar; el cráter del Volcán
+          Morado. El camino es corto y la vista increíble, acá deslumbra el tono
+          que le da su nombre.
+        </p>
+        <p class="fs-5 parrafos">
+          Finalizado el recorrido en la reserva, Marisa nos guió en los caminos
+          internos, los mismos que utilizan los petroleros de YPF, para poder
+          salir a la Ruta 40 y visitar el Geoparque. Estos caminos no están
+          señalizados y es imposible ubicarse sin guía en el lugar.
+        </p>
+
+        <p class="fs-5 parrafos">
+          En el Geoparque nos esperaba Roberto, guía local que también pertenece
+          a Promatur, quien nos contó sobre las particularidades que posee
+          Malargüe y nos enseñó la flora y fósiles del lugar. Para ese momento
+          de la tarde el cielo ya se vestía de gris intenso anunciando tormenta.
+          Al regresar, Cristian, encargado del Miticayo Parador de Ruta nos
+          sorprendió con un rico café bien calentito y tortas fritas, que
+          recomendamos a todos los que lleguen hasta el lugar. Y de paso le
+          dejan también nuestros saludos a Alvarito, el chivito mascota!
+        </p>
+      </div>
+
+      <div class="container pt-4 d-flex">
+        <h5 class="pt-1">Compartinos en tus redes!</h5>
+        <a href="https://www.facebook.com/" target="_blank">
+          <i class="fa-brands fa-square-facebook fa-2x pb-2 px-2"></i>
+        </a>
+        <a href="https://twitter.com/" target="_blank">
+          <i class="fa-brands fa-square-twitter fa-2x pb-2 px-2"></i>
+        </a>
+        <a href="https://www.instagram.com/" target="_blank">
+          <i class="fa-brands fa-square-instagram fa-2x px-2 pb-2"></i
+        ></a>
+      </div>
+
+      <div class="comentarios container pt-3 pb-5">
+        <div>
+          <form class="py-3">
+            <div class="form-floating">
+              <textarea
+                class="form-control"
+                placeholder="Dejanos tu comentario!"
+                id="floatingTextarea"
+                required
+              ></textarea>
+              <label for="floatingTextarea">Dejanos tu comentario!</label>
+            </div>
+
+            <button type="submit" class="btn mt-2 btn-primary">Enviar</button>
+          </form>
+        </div>
+
+        <div class="comentario pt-3 row">
+          <div class="col-1 d-sm-none d-lg-block">
+            <img
+              class="w-100 h-auto"
+              src="/img/avatarComentarios/Avatar11.png"
+              alt="Avatar de Marcelina Latorre"
+            />
+          </div>
+
+          <div class="col-11 py-3 row">
+            <h6>Marcelina Latorre</h6>
+            <p>
+              Recomiendo ir al atardecer y disfrutar del paisaje de las montañas
+              de Malargüe. Un panorama hermoso andino que nos abre la puerta a
+              la Patagonia. Una caminata, aunque un poco exigente, increíble.
+              Recomiendo unos buenos calzados para pasar por el barro y la
+              nieve.
+            </p>
+          </div>
+        </div>
+
+        <div class="comentario row">
+          <div class="col-1 d-sm-none d-lg-block py-2">
+            <img
+              class="w-100 h-auto"
+              src="/img/avatarComentarios/Avatar12.png"
+              alt="Avatar de Gaspar Yañez"
+            />
+          </div>
+
+          <div class="col-11 py-3 row">
+            <h6>Gaspar Yañez</h6>
+            <p>
+              El paisaje es muy hermoso. Con cuidado y sin apuro se puede
+              ascender a la cima de los castillos. El restaurante es muy bueno.
+            </p>
+          </div>
+        </div>
+
+        <div class="comentario row">
+          <div class="col-1 d-sm-none d-lg-block py-2">
+            <img
+              class="w-100 h-auto"
+              src="/img/avatarComentarios/Avatar13.png"
+              alt="Avatar de Maria Prado Olmos"
+            />
+          </div>
+
+          <div class="col-11 py-3 row">
+            <h6>Maria Prado Olmos</h6>
+            <p>
+              Paisaje único y una experiencia inigualable. Hay que llegar al
+              sitio con un guía en forma obligatoria. Recomiendo mucho este
+              lugar, ya que los paisajes que se puedan apreciar ahí, son una
+              maravilla.
+            </p>
+          </div>
+        </div>
+
+        <div class="comentario row">
+          <div class="col-1 d-sm-none d-lg-block py-2">
+            <img
+              class="w-100 h-auto"
+              src="/img/avatarComentarios/Avatar14.png"
+              alt="Avatar de Celestino Godoy"
+            />
+          </div>
+
+          <div class="col-11 py-3 row">
+            <h6>Leonardo Del Brio</h6>
+            <p>
+              Llegamos de paso sin saber, ya que el destino era otro. Como toda
+              obra natural, es digna de tomarse unos minutos para apreciarla.
+            </p>
+          </div>
+        </div>
+
+        <div class="comentarioFinal row">
+          <div class="col-1 d-sm-none d-lg-block py-2">
+            <img
+              class="w-100 h-auto"
+              src="/img/avatarComentarios/Avatar15.png"
+              alt="Avatar de Sandra Maria Belda"
+            />
+          </div>
+
+          <div class="col-11 py-3 row">
+            <h6>Sandra Maria Belda</h6>
+            <p>
+              Un lugar maravilloso y único en el mundo donde la naturaleza te
+              desafía a creer que estás en otro planeta. Sin duda lugar obligado
+              para conocer y disfrutar
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container-fluid">
+        <div class="row p-5 pb-3 text-white">
+          <div class="col-12 col-md-6 col-lg-3 p-4 py-2 text-center">
+            <a href="/index.html">
+              <img
+                src="/img/logoBlanco.png"
+                alt="Logo de Nómades Argentinos"
+                class="img-fluid"
+              />
+            </a>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 py-3">
+            <h5>Seguinos</h5>
+            <div class="row">
+              <div class="py-2">
+                <a
+                  class="h5 text-secondary text-decoration-none"
+                  href="https://www.instagram.com/"
+                  target="_blank"
+                >
+                  <i class="fa-brands fa-instagram"></i>
+                  Instagram</a
+                >
+              </div>
+              <div class="py-2">
+                <a
+                  class="h5 text-secondary text-decoration-none"
+                  href="https://www.facebook.com/"
+                  target="_blank"
+                >
+                  <i class="fa-brands fa-facebook-f"></i>
+                  Facebook
+                </a>
+              </div>
+              <div class="py-2">
+                <a
+                  class="h5 text-secondary text-decoration-none"
+                  href="https://twitter.com"
+                  target="_blank"
+                >
+                  <i class="fa-brands fa-twitter"></i>
+                  Twitter
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 py-3">
+            <div class="mb-3">
+              <h5>Links</h5>
+            </div>
+            <div class="mb-3">
+              <div class="mb-1">
+                <a
+                  class="text-secondary text-start text-decoration-none"
+                  href="/pages/sobreNosotros.html"
+                >
+                  Sobre nosotros</a
+                >
+              </div>
+              <div class="mb-1">
+                <a
+                  class="text-secondary text-decoration-none"
+                  href="/pages/contacto.html"
+                >
+                  Contacto</a
+                >
+              </div>
+              <div class="mb-1">
+                <a
+                  class="text-secondary text-decoration-none"
+                  href="/pages/galeria.html"
+                  >Galería</a
+                >
+              </div>
+              <div class="mb-1">
+                <a
+                  class="text-secondary text-decoration-none"
+                  href="/pages/404.html"
+                >
+                  Politica de privacidad</a
+                >
+              </div>
+              <div class="mb-1">
+                <a
+                  class="text-secondary text-decoration-none"
+                  href="/pages/404.html"
+                >
+                  Politica de cookies</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 py-2 textoFooter">
+            <p>
+              Nómades Argentinos es un proyecto independiente y autogestionado,
+              por eso mismo invitamos a quienes disfruten de nuestro contenido a
+              aportar la cantidad de dinero que deseen para permitirnos poder
+              seguir haciendo lo que tanto amamos.
+            </p>
+            <div class="text-center">
+              <div class="py-2">
+                <a href="https://cafecito.app/" target="_blank">
+                  <img
+                    srcset="
+                      https://cdn.cafecito.app/imgs/buttons/button_5.png       1x,
+                      https://cdn.cafecito.app/imgs/buttons/button_5_2x.png    2x,
+                      https://cdn.cafecito.app/imgs/buttons/button_5_3.75x.png 3.75x
+                    "
+                    src="https://cdn.cafecito.app/imgs/buttons/button_5.png"
+                    alt="Invitame un café en cafecito.app"
+                  />
+                </a>
+              </div>
+
+              <div class="py-2">
+                <img src="/img/mp.png" alt="logo de mercadopago" width="60" />
+                <script
+                  src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
+                  data-preference-id="398743581-2d5ed5d2-9bda-4136-b2a5-bf0d31defb24"
+                  data-source="button"
+                ></script>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 pt-4 border-top border-2">
+            <p class="text-white text-center">
+              &copy; 2022 <b>Nómades Argentinos</b> - Todos los Derechos
+              Reservados.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap -->
+    <script src="/js/bootstrap.min.js"></script>
+  </body>
+</html>
