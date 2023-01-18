@@ -77,6 +77,10 @@ textarea {
   font-weight: 500;
 }
 
+.card-text{
+  text-align: justify;
+}
+
 .titulos{ 
   font-family: 'Belgrano', serif;
 }
